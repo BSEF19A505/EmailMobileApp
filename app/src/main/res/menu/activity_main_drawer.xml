@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Inbox"
+            android:icon="@drawable/ic_baseline_inbox_24"
+            android:title="@string/inbox" />
+        <item
+            android:id="@+id/nav_Important"
+            android:icon="@drawable/ic_baseline_label_important_24"
+            android:title="@string/important" />
+        <item
+            android:id="@+id/nav_Send"
+            android:icon="@drawable/ic_baseline_send_24"
+            android:title="@string/send" />
+        <item
+            android:id="@+id/nav_Outbox"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/outbox" />
+        <item
+            android:id="@+id/nav_Drafts"
+            android:icon="@drawable/ic_baseline_drafts_24"
+            android:title="@string/drafts" />
+        <item
+            android:id="@+id/nav_Spam"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/spam" />
+        <item
+            android:id="@+id/nav_Trash"
+            android:icon="@drawable/ic_baseline_restore_from_trash_24"
+            android:title="@string/trash" />
+    </group>
+</menu>

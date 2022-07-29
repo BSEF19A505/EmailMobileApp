@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_Inbox">
+
+    <fragment
+        android:id="@+id/nav_Inbox"
+        android:name="com.example.emailmobileapp.ui.Inbox"
+        android:label="Inbox"
+        tools:layout="@layout/inbox_fragment" />
+
+    <fragment
+        android:id="@+id/nav_Important"
+        android:name="com.example.emailmobileapp.ui.Important"
+        android:label="Important"
+        tools:layout="@layout/important_fragment" />
+
+    <fragment
+        android:id="@+id/nav_Outbox"
+        android:name="com.example.emailmobileapp.ui.Outbox"
+        android:label="Outbox"
+        tools:layout="@layout/outbox_fragment" />
+
+    <fragment
+        android:id="@+id/nav_Send"
+        android:name="com.example.emailmobileapp.ui.Send"
+        android:label="Send"
+        tools:layout="@layout/send_fragment" />
+    <fragment
+        android:id="@+id/nav_Drafts"
+        android:name="com.example.emailmobileapp.ui.Drafts"
+        android:label="Drafts"
+        tools:layout="@layout/drafts_fragment" />
+    <fragment
+        android:id="@+id/nav_Spam"
+        android:name="com.example.emailmobileapp.ui.Spam"
+        android:label="Spam"
+        tools:layout="@layout/spam_fragment" />
+    <fragment
+        android:id="@+id/nav_Trash"
+        android:name="com.example.emailmobileapp.ui.Trash"
+        android:label="Trash"
+        tools:layout="@layout/trash_fragment" />
+</navigation>
